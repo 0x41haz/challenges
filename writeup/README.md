@@ -21,9 +21,7 @@ Is it correct , I don't think so.
   below</h3>
   
 ```printf '\x01' | dd conv=notrunc of=./0x41haz.0x41haz bs=1 seek=5
-1+0 records in
-1+0 records out
-1 byte copied, 3.2384e-05 s, 30.9 kB/s
+
 ```
 <h3>Now look</h3>
 
