@@ -30,3 +30,16 @@ Is it correct , I don't think so.
  <img align="centre" alt="IMG" src="https://github.com/0x41haz/challenges/blob/main/writeup/main-fun.png?raw=true" width="1600" height="450" />
  
 <h3>Here something got leak i.e. [2@@25$gfsT&@L] ...lets try it as password </h3>
+
+``` ./0x41haz.0x41haz                                               
+=======================
+Hey , Can You Crackme ?
+=======================
+It's jus a simple binary 
+
+Tell Me the Password :
+2@@25$gfsT&@L
+Well Done !!
+```
+
+<h3>ouch!! its correct</h3>
