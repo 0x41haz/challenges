@@ -26,4 +26,4 @@ Is it correct , I don't think so.
 ```file 0x41haz.0x41haz 
 0x41haz.0x41haz: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=6c9f2e85b64d4f12b91136ffb8e4c038f1dc6dcd, for GNU/Linux 3.2.0, stripped
 ```
-
+<h3>It is an stripped binary .lets open with radare2. looking at the main function as ```pdf @main```</h3>
