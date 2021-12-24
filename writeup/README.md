@@ -27,4 +27,6 @@ Is it correct , I don't think so.
 0x41haz.0x41haz: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=6c9f2e85b64d4f12b91136ffb8e4c038f1dc6dcd, for GNU/Linux 3.2.0, stripped
 ```
 <h3>It is an stripped binary .lets open with radare2. looking at the main function as [pdf @main]</h3>
- <img align="centre" alt="IMG" src="https://github.com/0x41haz/challenges/blob/main/writeup/main-fun.png?raw=true" width="1600" height="400" />
+ <img align="centre" alt="IMG" src="https://github.com/0x41haz/challenges/blob/main/writeup/main-fun.png?raw=true" width="1600" height="450" />
+ 
+<h3>Here something got leak i.e. [2@@25$gfsT&@L] ...lets try it as password </h3>
