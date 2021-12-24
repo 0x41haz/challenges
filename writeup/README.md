@@ -19,9 +19,8 @@ Is it correct , I don't think so.
 ```
 <h3>its an anti reversing technique you have to bypass it .hmm.. how can we do that ??? for that, you need to patch the sixth byte(0x02) to 0x01 as given
   below</h3>
-  
-```printf '\x01' | dd conv=notrunc of=./0x41haz.0x41haz bs=1 seek=5
-```
+ <img align="centre" alt="IMG" src="https://github.com/0x41haz/challenges/blob/main/writeup/2021-12-24_15-05.png?raw=true" width="1500" height="70" />
+
 <h3>Now look</h3>
 
 ```file 0x41haz.0x41haz 
