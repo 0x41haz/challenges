@@ -20,7 +20,7 @@ Is it correct , I don't think so.
 <h3>its an anti reversing technique you have to bypass it .hmm.. how can we do that ??? for that, you need to patch the sixth byte(0x02) to 0x01 as given
   below</h3>
   
- ```printf '\x01' | dd conv=notrunc of=./0x41haz.0x41haz bs=1 seek=5
+```printf '\x01' | dd conv=notrunc of=./0x41haz.0x41haz bs=1 seek=5
 1+0 records in
 1+0 records out
 1 byte copied, 3.2384e-05 s, 30.9 kB/s
